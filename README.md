@@ -2,12 +2,13 @@
 
 The files in this repository were used to configure the network depicted below.
 
-https://github.com/Wba-01/ELK-Stack-Project/blob/main/Diagrams/Azure%20Cloud%20Security.png
+![](Diagrams/Azure Cloud Security.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
- https://github.com/Wba-01/ELK-Stack-Project/blob/036c5a06d0cf0aff3189b294d0d4e1a169578c76/Ansible/ELK%20Project/install-elk.yml
-
+ -_Ansible/ELK Project/install-elk.yml_
+ - **[install-elk.yml](ELK Project/install-elk.yml)**
+ 
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
