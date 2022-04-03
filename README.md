@@ -3,6 +3,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
+<<<<<<< HEAD
 
 ![network](https://github.com/Wba-01/ELK-Stack-Project/blob/06380c001189f5a33afb0eb8971ebd9a86e2f8b0/Diagrams/Azure%20Cloud%20Security.png)
 
@@ -12,6 +13,15 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
  [install-elk.yml] (ELK Project/install-elk.yml)
 
+=======
+![](Diagrams/Azure Cloud Security.png)
+
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
+
+ -_Ansible/ELK Project/install-elk.yml_
+ - **[install-elk.yml](ELK Project/install-elk.yml)**
+ 
+>>>>>>> 06380c001189f5a33afb0eb8971ebd9a86e2f8b0
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
@@ -101,6 +111,15 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 SSH into the control node and follow the steps below:
 
+<<<<<<< HEAD
 - Copy the configuration file to the ansible container.
 - Update the configuration file to include hosts: Ip address of the ELK server ["10.1.0.4"]
 - Run the playbook, and navigate to **http://(vm ip):5601/app/kibana** to check that the installation worked as expected.
+=======
+_TODO: Answer the following questions to fill in the blanks:_
+- _Which file is the playbook? Where do you copy it?_
+- _Which file do you update to make Ansible run the playbook on a specific machine? How do I specify which machine to install the ELK server on versus which to install Filebeat on?_
+- _Which URL do you navigate to in order to check that the ELK server is running?
+
+_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
+>>>>>>> 06380c001189f5a33afb0eb8971ebd9a86e2f8b0
